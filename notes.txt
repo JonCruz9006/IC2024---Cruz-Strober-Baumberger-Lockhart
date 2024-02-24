@@ -1,0 +1,33 @@
+Foundation foods - analytical
+Ind food samples with info on each
+minimally-processed
+components and nutrients
+
+Standard Reference Legacy - analytical, calc, inputed
+- primary food comp database
+<= 150 nutrients
+
+Link betweeen two datasets is SR NDB and FF NDB
+first digit or first 2 digits correspond to food cat ID
+nutrient_id is a unique identifier
+Rank is a way of ordering nutrients (group similar nutrients)
+
+each food will have neveral nutrients and corresponding unit of measure (ex: iron in mg)
+
+SR dataset contains:
+mean
+minimallymax
+std error
+number of data points
+
+Foundation Foods
+mean
+min 
+max
+median
+
+Can we use this data to improve our understanding of analytical sampling
+have the food comps changed over time for equiv foods? whole wheat vlour in 2010 vs 2020
+When comparing, does the mean value for the SR legacy fall between the min and max values of the foundation foods 
+which nutrients fall out of range the most and which fall in range more frequently?
+Which food groups have had the biggest change?
