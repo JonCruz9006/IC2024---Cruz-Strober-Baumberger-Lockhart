@@ -3684,7 +3684,7 @@ FF_NDB,SR_NDB,food_category_id,FF Food description,SR Food description,Nutrient_
 20008,20008,20,"Buckwheat, whole grain",Buckwheat,1051,100,Water,Water,G,9.75,,,,2,12.95,10.77,14.45,13.22,8,4/20/2023
 20031,20031,20,"Millet, whole grain","Millet, raw",1103,6200,"Selenium, Se","Selenium, Se",UG,2.7,,,,1,23.1,0,33.1,23.1,8,4/20/2023
 20031,20031,20,"Millet, whole grain","Millet, raw",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,72.85,,,,0,74.44623,,,,,4/20/2023
-20031,20031,20,"Millet, whole grain","Millet, raw",1003,600,Protein,Protein,G,11.02,,,0.685,9,10.02177,7.7539,11.2519,10.5523,,4/20/2023
+20031,20031,20,"Millet, whole grain","Millet, raw",1003,600,Protein,PFlourrotein,G,11.02,,,0.685,9,10.02177,7.7539,11.2519,10.5523,,4/20/2023
 20031,20031,20,"Millet, whole grain","Millet, raw",1092,5700,"Potassium, K","Potassium, K",MG,195,,,5.61,19,214.1,141,253,228,8,4/20/2023
 20031,20031,20,"Millet, whole grain","Millet, raw",1098,6000,"Copper, Cu","Copper, Cu",MG,0.75,,,0.028,19,0.4883,0.305,0.639,0.5165,8,4/20/2023
 20031,20031,20,"Millet, whole grain","Millet, raw",1087,5300,"Calcium, Ca","Calcium, Ca",MG,8,,,0.388,19,9.105,6.97,10.4,9.305,8,4/20/2023
@@ -3931,7 +3931,7 @@ FF_NDB,SR_NDB,food_category_id,FF Food description,SR Food description,Nutrient_
 12036,12036,12,"Seeds, sunflower seed, kernel, raw","Seeds, sunflower seed kernels, dried",1079,1200,"Fiber, total dietary","Fiber, total dietary",G,8.6,6.5,13.6,1.883,5,7.215,6.18,8.06,7.315,8,4/20/2023
 12036,12036,12,"Seeds, sunflower seed, kernel, raw","Seeds, sunflower seed kernels, dried",1101,6100,"Manganese, Mn","Manganese, Mn",MG,1.95,1.7,2.2,,2,2.63,2.22,2.93,2.635,8,4/20/2023
 12036,12036,12,"Seeds, sunflower seed, kernel, raw","Seeds, sunflower seed kernels, dried",1087,5300,"Calcium, Ca","Calcium, Ca",MG,78,69,87,,2,115.6,71.7,157,115.3,8,4/20/2023
-12036,12036,12,"Seeds, sunflower seed, kernel, raw","Seeds, sunflower seed kernels, dried",1003,600,Protein,Protein,G,20.78,18.97,22.58,,2,18.8733,16.536,21.094,18.3645,,4/20/2023
+12036,12036,12,"Seeds, sunflower seed, kernel, raw","Seeds, sunflower seed kernels, dried",1003,600,Protein,Protein,G,20.78,18.97,22.58,,2,18.8733,16.536,21.094,18.3645,,4/20/2t023
 12036,12036,12,"Seeds, sunflower seed, kernel, raw","Seeds, sunflower seed kernels, dried",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,20,,,,0,24.5007,,,,,4/20/2023
 16056,16056,16,"Chickpeas, (garbanzo beans, bengal gram), dry","Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,62.95,,,,0,60.358,,,,,10/19/2023
 16056,16056,16,"Chickpeas, (garbanzo beans, bengal gram), dry","Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",1003,600,Protein,Protein,G,20.47,2.45,25.83,0.411,54,21.275,20.25,22.8125,21.28125,,10/19/2023
@@ -4209,7 +4209,7 @@ FF_NDB,SR_NDB,food_category_id,FF Food description,SR Food description,Nutrient_
 23325,23325,13,"Beef, round, top round, boneless, choice, raw","Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0"" fat, choice, raw",1089,5400,"Iron, Fe","Iron, Fe",MG,2.35,,,,2,1.901,1.47,2.59,1.895,8,10/19/2023
 23325,23325,13,"Beef, round, top round, boneless, choice, raw","Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0"" fat, choice, raw",1098,6000,"Copper, Cu","Copper, Cu",MG,0.048,,,,2,0.05515,0.0351,0.0703,0.05475,8,10/19/2023
 23325,23325,13,"Beef, round, top round, boneless, choice, raw","Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0"" fat, choice, raw",1293,12900,"Fatty acids, total polyunsaturated","Fatty acids, total polyunsaturated",G,0.247,,,,0,0.2383,0.18,0.32,0.24,6,10/19/2023
-23325,23325,13,"Beef, round, top round, boneless, choice, raw","Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0"" fat, choice, raw",1004,800,Total lipid (fat),Total lipid (fat),G,3.66,,,0.524,24,5.703,3.21,8.57,5.62,8,10/19/2023
+23325,23325,13,"Beef, round, top round, boneless, choice, raw","Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0"" fat, choice, raw",1004,800,Total lipid (fat),Total lipid (fat),G,3.66t,,,0.524,24,5.703,3.21,8.57,5.62,8,10/19/2023
 23325,23325,13,"Beef, round, top round, boneless, choice, raw","Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0"" fat, choice, raw",1007,1000,Ash,Ash,G,1.12,,,0.038,24,1.09,1.06,1.13,1.085,8,10/19/2023
 23325,23325,13,"Beef, round, top round, boneless, choice, raw","Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0"" fat, choice, raw",1101,6100,"Manganese, Mn","Manganese, Mn",MG,0.004,,,,2,0.002875,0,0.023,0,8,10/19/2023
 23325,23325,13,"Beef, round, top round, boneless, choice, raw","Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0"" fat, choice, raw",1292,11400,"Fatty acids, total monounsaturated","Fatty acids, total monounsaturated",G,1.678,,,,0,1.7,0.83,2.75,1.55,6,10/19/2023
@@ -4272,9 +4272,7 @@ FF_NDB,SR_NDB,food_category_id,FF Food description,SR Food description,Nutrient_
 1118,1118,1,"Yogurt, plain, nonfat","Yogurt, plain, skim milk, 13 grams protein per 8 ounce",1003,600,Protein,Protein,G,5.73,,,,0,4.22675,3.5728,5.2954,3.9875,,10/19/2023
 1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1110,8650,"Vitamin D (D2 + D3), International Units",Vitamin D,IU,22,,,,0,0,,,,,10/19/2023
 1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1114,8700,Vitamin D (D2 + D3),Vitamin D (D2 + D3),UG,0.6,,,,0,0,,,,,10/19/2023
-1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,0.68,,,,0,1.8979,,,,,10/19/2023
-1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1003,600,Protein,Protein,G,24.48,,,0.559,4,22.6171,21.5006,23.5422,22.7766,,10/19/2023
-1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1292,11400,"Fatty acids, total monounsaturated","Fatty acids, total monounsaturated",G,8.751,,,,0,6.679,6.19,7.1,6.8,8,10/19/2023
+1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,0.68,,,,0,1.8979,,,,,10/19/2023t
 1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1004,800,Total lipid (fat),Total lipid (fat),G,30.28,,,0.361,10,32.63,31.04,34.39,32.27,8,10/19/2023
 1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1105,7430,Retinol,Retinol,UG,192,,,,0,192,156.7,238.7,188.3,8,10/19/2023
 1025,1025,1,"Cheese, monterey jack, solid","Cheese, monterey",1007,1000,Ash,Ash,G,3.55,,,0.102,4,3.675,3.52,3.86,3.675,8,10/19/2023
