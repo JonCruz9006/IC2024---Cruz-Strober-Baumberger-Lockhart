@@ -7,7 +7,7 @@ df = df[["FF Food description","SR Food description", "FF_Component" , "SR_Compo
 
 df['Mean Difference'] = abs(df['SR Mean per 100g'] - df['FF Mean per 100g'])
 
-"""
+
 #region Calcium
 
 calcium = df[df['FF_Component'] == 'Calcium, Ca']
@@ -146,7 +146,7 @@ fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
 
 # endregion
-
+"""
 
 
 
