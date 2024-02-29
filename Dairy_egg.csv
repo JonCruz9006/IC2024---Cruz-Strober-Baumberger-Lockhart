@@ -957,7 +957,7 @@ FF_NDB,SR_NDB,food_category_id,FF Food description,SR Food description,Nutrient_
 1012,1012,1,"Cottage cheese, full fat, large or small curd","Cheese, cottage, creamed, large or small curd",1105,7430,Retinol,Retinol,UG,36,,,2.579,3,36.5,31,42,36.5,10,10/28/2022
 1012,1012,1,"Cottage cheese, full fat, large or small curd","Cheese, cottage, creamed, large or small curd",1004,800,Total lipid (fat),Total lipid (fat),G,4.3,,,0.026,3,4.225,3.72,4.58,4.19,10,10/28/2022
 1012,1012,1,"Cottage cheese, full fat, large or small curd","Cheese, cottage, creamed, large or small curd",1051,100,Water,Water,G,79.79,,,0.242,3,78.1,75.71,79.63,78.6,10,10/28/2022
-1017,1017,1,"Cream cheese, full fat, block","Cheese, cream",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,5.52,,,,0,4.55615,,,,,10/28/2022
+1017,1017,1,"Cream cheese, full fat, block","CIC2024---Cruz-Strober-Baumberger-Lockhartheese, cream",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,5.52,,,,0,4.55615,,,,,10/28/2022
 1017,1017,1,"Cream cheese, full fat, block","Cheese, cream",1003,600,Protein,Protein,G,6.15,5.04,7.15,0.08,11,5.78985,5.2316,6.8904,5.6463,,10/28/2022
 1017,1017,1,"Cream cheese, full fat, block","Cheese, cream",1092,5700,"Potassium, K","Potassium, K",MG,132,99,167,5.695,11,124.8,82.6,171,123.6,8,10/28/2022
 1017,1017,1,"Cream cheese, full fat, block","Cheese, cream",1175,6800,Vitamin B-6,Vitamin B-6,MG,0.056,0.048,0.067,0.002,6,0.03925,0.029,0.05,0.0375,8,10/28/2022
