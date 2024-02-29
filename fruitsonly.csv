@@ -1,36 +1,4 @@
 FF_NDB,SR_NDB,food_category_id,FF Food description,SR Food description,Nutrient_id,rank,FF_Component,SR_Component,unit_name,SR Mean per 100g,SR Min,SR Max, Std_Error,SR Num_Data_pts,FF Mean per 100g,FF Min,FF Max,FF Median,FF data_points,FF Publication Date
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1051,100,Water,Water,G,83.07,80,85.11,0.989,20,83.9,82.6,85.1,84,8,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1126,8100,"Tocopherol, gamma","Tocopherol, gamma",MG,0.03,0.02,0.04,0.005,4,0.03,0.02,0.04,0.02,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1128,8300,"Tocotrienol, alpha","Tocotrienol, alpha",MG,0,0,0,0,4,0,0,0,0,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1075,2100,Galactose,Galactose,G,0.17,0,0.82,0.089,8,0.17,0,0.82,0.04,8,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1211,16400,Threonine,Threonine,G,0.047,,,,0,0.043,0.037,0.05,0.042,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1095,5900,"Zinc, Zn","Zinc, Zn",MG,0.14,0.09,0.2,0.01,21,0.14,0.11,0.2,0.12,6,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1007,1000,Ash,Ash,G,0.61,0.4,0.72,0.044,20,0.63,0.46,0.72,0.66,8,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1010,1600,Sucrose,Sucrose,G,0.15,0.07,0.33,0.021,8,0.15,0.07,0.33,0.07,6,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1093,5800,"Sodium, Na","Sodium, Na",MG,3,0,4,0.713,18,5,2,8,5,6,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,14.66,,,,0,14,,,,,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1092,5700,"Potassium, K","Potassium, K",MG,312,286,358,6.598,16,198,105,314,130,7,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1224,17700,Glutamic acid,Glutamic acid,G,0.184,,,,0,0.165,0.158,0.182,0.16,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1170,6700,Pantothenic acid,Pantothenic acid,MG,0.183,0.131,0.28,0.025,18,0.206,0.131,0.28,0.215,6,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1216,16900,Cystine,Cystine,G,0.031,,,,0,0.028,0.024,0.032,0.028,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1103,6200,"Selenium, Se","Selenium, Se",UG,0.2,0.1,0.3,0.04,5,0.2,0.1,0.3,0.3,5,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1011,1700,Glucose,Glucose (dextrose),G,4.11,3.8,4.55,0.055,8,4.11,3.8,4.54,3.99,8,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1175,6800,Vitamin B-6,Vitamin B-6,MG,0.063,0.055,0.08,0.002,18,0.061,0.057,0.063,0.061,6,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1122,7530,Lycopene,Lycopene,UG,0,0,0,0,6,0,0,0,0,6,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1013,1900,Lactose,Lactose,G,0,0,0,0,7,0.02,0,0.12,0,8,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1062,400,Energy,Energy,kJ,255,,,,0,241,,,,,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1130,8500,"Tocotrienol, gamma","Tocotrienol, gamma",MG,0.1,0.07,0.14,0.014,4,0.1,0.07,0.14,0.1,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1177,6900,"Folate, total","Folate, total",UG,25,20,35,2.021,17,26,20,32,25,5,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1125,8000,"Tocopherol, beta","Tocopherol, beta",MG,0,0,0,0,4,0,0,0,0,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1217,17000,Phenylalanine,Phenylalanine,G,0.044,,,,0,0.039,0.038,0.042,0.038,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1101,6100,"Manganese, Mn","Manganese, Mn",MG,0.098,0.069,0.16,0.011,17,0.064,0.037,0.11,0.053,8,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1220,17300,Arginine,Arginine,G,0.081,,,,0,0.073,0.065,0.082,0.072,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1225,17800,Glycine,Glycine,G,0.06,,,,0,0.054,0.049,0.059,0.054,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1106,7420,"Vitamin A, RAE","Vitamin A, RAE",UG,4,3,6,0.236,18,4,,,,,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1213,16600,Leucine,Leucine,G,0.066,,,,0,0.059,0.054,0.065,0.058,4,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1091,5600,"Phosphorus, P","Phosphorus, P",MG,34,25,42,1.603,19,34,27,42,35,7,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1090,5500,"Magnesium, Mg","Magnesium, Mg",MG,17,12,23,0.953,21,15.7,11.6,18.3,16.1,8,4/1/2019
-9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1210,16300,Tryptophan,Tryptophan,G,0.015,,,,0,0.013,0.007,0.018,0.014,4,4/1/2019
 9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1003,600,Protein,Protein,G,1.14,0.8,1.6,0.116,20,1.06,0.8,1.32,1.01,,4/1/2019
 9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1162,6300,"Vitamin C, total ascorbic acid","Vitamin C, total ascorbic acid",MG,92.7,77.4,118,3.367,16,74.7,55.5,105,71.8,8,4/1/2019
 9148,9148,9,"Kiwifruit, green, raw","Kiwifruit, green, raw",1127,8200,"Tocopherol, delta","Tocopherol, delta",MG,0,0,0,0,4,0,0,0,0,4,4/1/2019

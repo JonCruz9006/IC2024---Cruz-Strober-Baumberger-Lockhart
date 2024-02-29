@@ -2,22 +2,23 @@ import pandas as pd
 import plotly.express as px
 import re
 
-ranges_to_delete = [(2, 33), (230, 458)]
-with open('fruitsonly.csv', 'r') as input_file:
-    lines = input_file.readlines()
-with open('fruitsonly.csv', 'w') as output_file:
-    for line_number, line in enumerate(lines, 1):
-        if any(start_line <= line_number <= end_line for start_line, end_line in ranges_to_delete):
-            continue  
-        output_file.write(line)
+import re
+
+with open('fruitsonly.csv', "w") as output_file:
+    with open("FF_SR_data.csv", 'r') as fh:
+        for line in fh:
+            match = re.findall(r'^[0-9]*,[0-9]*,9,', line)
+            for s in match:
+                output_file.write(line)
+
+with open('fruitsonly.csv', "r") as input_file:
+    with open('new_fruitsonly.csv', "w") as output_file:
+        for line_num, line in enumerate(input_file, start=1):
+            if line_num not in range(2, 31) and line_num not in range(230, 351):
+                output_file.write(line)
 
 
-
-
-
-
-
-df = pd.read_csv("fruitsonly.csv")
+df = pd.read_csv("new_fruitsonly.csv")
 
 df = df[["FF Food description","SR Food description", "FF_Component" , "SR_Component", "SR Mean per 100g", "FF Mean per 100g"]]
 
