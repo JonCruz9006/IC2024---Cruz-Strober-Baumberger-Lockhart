@@ -19,7 +19,7 @@ fig = px.bar(calcium, x="FF Food description", y="Mean Difference",
              barmode="group",
              hover_name="FF Food description",
              template="plotly",
-             width=10000, height=600)
+             width=1000, height=600)
 
 # Update layout for better aesthetics
 fig.update_layout(
