@@ -1,35 +1,19 @@
 import pandas as pd 
 import plotly.express as px
-import re
 
-ranges_to_delete = [(2, 33), (230, 458)]
-with open('fruitsonly.csv', 'r') as input_file:
-    lines = input_file.readlines()
-with open('fruitsonly.csv', 'w') as output_file:
-    for line_number, line in enumerate(lines, 1):
-        if any(start_line <= line_number <= end_line for start_line, end_line in ranges_to_delete):
-            continue  
-        output_file.write(line)
-
-
-
-
-
-
-
-df = pd.read_csv("fruitsonly.csv")
+df = pd.read_csv("dairyonly.csv")
 
 df = df[["FF Food description","SR Food description", "FF_Component" , "SR_Component", "SR Mean per 100g", "FF Mean per 100g"]]
 
-df['Mean Difference'] = (df['SR Mean per 100g'] - df['FF Mean per 100g'])
+df['Mean Difference'] = abs(df['SR Mean per 100g'] - df['FF Mean per 100g'])
 
 
-#region Sugars
+#region Calcium
 
-Sugars = df[df['FF_Component'] == 'Sugars, Total']
+calcium = df[df['FF_Component'] == 'Calcium, Ca']
 
-fig = px.bar(Sugars, x="FF Food description", y="Mean Difference",
-             title="Mean Difference of Sugar Components",
+fig = px.bar(calcium, x="FF Food description", y="Mean Difference",
+             title="Mean Difference of Calcium Components",
              labels={"Mean Difference": "Mean Difference (g/100g)"},
              color="FF Food description", 
              barmode="group",
@@ -51,12 +35,12 @@ fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
 # endregion
 
-#region Vitamin C
+#region Vitamin A
 
-VitC = df[df['FF_Component'] == 'Vitamin C, total ascorbic acid'] 
+VitA = df[df['FF_Component'] == 'Vitamin A, RAE'] 
 
-fig = px.bar(VitC, x="FF Food description", y="Mean Difference",
-             title="Mean Difference of Vitamin C Components",
+fig = px.bar(VitA, x="FF Food description", y="Mean Difference",
+             title="Mean Difference of Vitamin A Components",
              labels={"Mean Difference": "Mean Difference (g/100g)"},
              color="FF Food description", 
              barmode="group",
@@ -131,4 +115,38 @@ fig.update_layout(
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
+
+# endregion
+"""
+#region Protein
+
+protein = df[df['FF_Component'] == 'Protein']
+
+
+fig = px.bar(protein, x="FF Food description", y="Mean Difference",
+             title="Mean Difference of Protein Components",
+             labels={"Mean Difference": "Mean Difference (g/100g)"},
+             color="FF Food description", 
+             barmode="group",
+             hover_name="FF Food description",
+             template="plotly",
+             width=1000, height=600)
+
+# Update layout for better aesthetics
+fig.update_layout(
+    xaxis=dict(title="Food Description"),
+    yaxis=dict(title="Mean Difference (g/100g)"),
+    legend_title="Food Description",
+    font=dict(family="Arial", size=12, color="black"),
+    title_font=dict(size=20),
+    plot_bgcolor="rgba(0,0,0,0)",
+    paper_bgcolor="rgba(0,0,0,0)",
+)
+fig.update_traces(marker=dict(line=dict(width=0.2)))
+fig.show()
+
+# endregion
+"""
+
+
 

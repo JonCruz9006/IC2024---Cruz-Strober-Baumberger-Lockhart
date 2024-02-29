@@ -195,3 +195,35 @@ FF_NDB,SR_NDB,food_category_id,FF Food description,SR Food description,Nutrient_
 9500,9500,9,"Apples, red delicious, with skin, raw","Apples, raw, red delicious, with skin",1095,5900,"Zinc, Zn","Zinc, Zn",MG,0.04,0.02,0.07,0.006,5,0.01964,0,0.0332,0.02325,8,10/30/2020
 9500,9500,9,"Apples, red delicious, with skin, raw","Apples, raw, red delicious, with skin",1014,2000,Maltose,Maltose,G,0,0,0,0,6,0,0,0,0,8,10/30/2020
 9500,9500,9,"Apples, red delicious, with skin, raw","Apples, raw, red delicious, with skin",1098,6000,"Copper, Cu","Copper, Cu",MG,0.027,0.024,0.029,0,3,0.02429,0.018,0.0326,0.0234,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1063,1500,"Sugars, Total","Sugars, total",G,11.68,11.5,12.01,0.163,3,13.332,,,,,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1050,1120,"Carbohydrate, by difference","Carbohydrate, by difference",G,15.22,,,,0,15.405,,,,,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,15.22,,,,0,15.6511625,,,,,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1003,600,"Carbohydrate, by difference",Protein,G,0.2,0.17,0.22,0.008,4,0.1484375,0,0.25,0.125,,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1101,6100,"Carbohydrate, by difference","Manganese, Mn",MG,0.031,0.026,0.037,0.001,4,0.03263,0.0208,0.0416,0.0333,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1079,1200,"Carbohydrate, by difference","Fiber, total dietary",G,2.1,1.7,2.8,0.2,4,2.075,1.89,2.32,2.06,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1090,5500,"Carbohydrate, by difference","Magnesium, Mg",MG,5,5,5,0.048,4,4.67,3.89,5.58,4.485,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1091,5600,"Carbohydrate, by difference","Phosphorus, P",MG,13,11,13,0.476,4,9.78,6.38,13,9.78,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1093,5800,"Sodium, Na","Sodium, Na",MG,1,,,,0,1.013,0,8.1,0,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1098,6000,"Copper, Cu","Copper, Cu",MG,0.025,0.021,0.029,,2,0.03279,0.0216,0.0524,0.0304,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1051,100,Water,Water,G,84.16,83.55,85.66,0.473,4,83.61,82.04,84.67,83.75,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1004,800,Total lipid (fat),Total lipid (fat),G,0.18,0.07,0.27,0.049,4,0.1625,0,0.3,0.2,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1087,5300,"Calcium, Ca","Calcium, Ca",MG,7,6,8,0.318,4,5.975,4.91,6.67,6.065,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1010,1600,Sucrose,Sucrose,G,2.21,1.35,2.67,0.021,3,1.704,1.15,2.39,1.675,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1092,5700,"Potassium, K","Potassium, K",MG,109,90,126,4.937,4,103.8,79.3,119,104,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1013,1900,Lactose,Lactose,G,0,0,0,0,3,0,0,0,0,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1014,2000,Maltose,Maltose,G,0,0,0,0,3,0,0,0,0,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1095,5900,"Zinc, Zn","Zinc, Zn",MG,0.04,0.03,0.08,0.012,4,0.01676,0,0.0336,0.0226,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1167,6600,Niacin,Niacin,MG,0.07,0.07,0.07,,2,0.09063,0.075,0.12,0.085,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1007,1000,Ash,Ash,G,0.24,0.15,0.34,0.052,4,0.4279,0,1.49,0.26,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1165,6400,Thiamin,Thiamin,MG,0.013,0.007,0.019,0.001,4,0.00625,0,0.01,0.01,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1175,6800,Vitamin B-6,Vitamin B-6,MG,0.045,0.037,0.055,0.005,4,0.03544,0.026,0.045,0.03475,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1166,6500,Riboflavin,Riboflavin,MG,0.026,0.015,0.035,0.001,4,0.0675,0.06,0.08,0.07,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1012,1800,Fructose,Fructose,G,6.47,6.37,6.55,0.06,3,8.59,7.47,10.08,8.385,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1089,5400,"Iron, Fe","Iron, Fe",MG,0.1,0.1,0.11,,2,0.015,0,0.12,0,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",2000,1510,"Sugars, total","Sugars, total",G,11.68,11.5,12.01,0.163,3,13.33,11.56,15.28,13.42,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1011,1700,Glucose,Glucose (dextrose),G,3,2.55,3.66,0.082,3,3.038,2.35,3.9,2.935,8,10/30/2020
+9504,9504,9,"Apples, fuji, with skin, raw","Apples, raw, fuji, with skin",1177,6900,"Folate, total","Folate, total",UG,3,,,,0,0,0,0,0,8,10/30/2020
+9503,9503,9,"Apples, gala, with skin, raw","Apples, raw, gala, with skin",1063,1500,"Sugars, Total","Sugars, total",G,10.37,9.39,11.26,0.05,4,11.835,,,,,10/30/2020
+9503,9503,9,"Apples, gala, with skin, raw","Apples, raw, gala, with skin",1050,1120,"Carbohydrate, by difference","Carbohydrate, by difference",G,13.68,,,,0,13.939,,,,,10/30/2020
+9503,9503,9,"Apples, gala, with skin, raw","Apples, raw, gala, with skin",1005,1110,"Carbohydrate, by difference","Carbohydrate, by difference",G,13.68,,,,0,14.7680875,,,,,10/30/2020
+9503,9503,9,"Apples, gala, with skin, raw","Apples, raw, gala, with skin",1003,600,"Carbohydrate, by difference",Protein,G,0.25,0.22,0.32,0.025,4,0.1328125,0,0.1875,0.1875,,10/30/2020
