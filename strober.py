@@ -5,7 +5,7 @@ df = pd.read_csv("dairyonly.csv")
 
 df = df[["FF Food description","SR Food description", "FF_Component" , "SR_Component", "SR Mean per 100g", "FF Mean per 100g"]]
 
-df['Mean Difference'] = abs(df['SR Mean per 100g'] - df['FF Mean per 100g'])
+df['Mean Difference'] = ((df['FF Mean per 100g'] - df['SR Mean per 100g']) / df['SR Mean per 100g']) * 100
 
 
 #region Calcium
@@ -35,6 +35,7 @@ fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
 # endregion
 
+""""
 #region Vitamin A
 
 VitA = df[df['FF_Component'] == 'Vitamin A, RAE'] 
@@ -117,7 +118,7 @@ fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
 
 # endregion
-"""
+
 #region Protein
 
 protein = df[df['FF_Component'] == 'Protein']
