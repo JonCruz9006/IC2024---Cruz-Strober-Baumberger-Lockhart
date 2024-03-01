@@ -27,19 +27,13 @@ fig.update_layout(
     yaxis=dict(title="Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
-    title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
-    xaxis_line_color="black",  # Set x-axis line color
-    yaxis_line_color="black",  # Set y-axis line color
-    xaxis_line_width=1,  # Set x-axis line width
-    yaxis_line_width=1,  # Set y-axis line width
+    title_font=dict(size=20) # Set y-axis line width
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
 # endregion
 
-""""
+
 #region Vitamin A
 
 VitA = df[df['FF_Component'] == 'Vitamin A, RAE'] 
@@ -59,9 +53,7 @@ fig.update_layout(
     yaxis=dict(title="Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
-    title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+    title_font=dict(size=20)
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -86,9 +78,7 @@ fig.update_layout(
     yaxis=dict(title="Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
-    title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+    title_font=dict(size=20)
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -114,9 +104,7 @@ fig.update_layout(
     yaxis=dict(title="Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
-    title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+    title_font=dict(size=20)
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -143,15 +131,13 @@ fig.update_layout(
     yaxis=dict(title="Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
-    title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+    title_font=dict(size=20)
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
 
 # endregion
-"""
+
 
 
 
