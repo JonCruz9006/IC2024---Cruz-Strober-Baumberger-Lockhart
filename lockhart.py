@@ -24,7 +24,7 @@ df = pd.read_csv("poultry.csv")
 #print(df.head())
 df = df[["FF Food description","SR Food description", "FF_Component" , "SR_Component", "SR Mean per 100g", "FF Mean per 100g"]]
 
-df['Mean Difference'] = abs(df['SR Mean per 100g'] - df['FF Mean per 100g'])
+df['Mean Difference'] = ((df['SR Mean per 100g'] - df['FF Mean per 100g']) / df['SR Mean per 100g']) *100
 
 print(df['FF_Component'])
 #region Calcium
