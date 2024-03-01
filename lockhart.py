@@ -47,8 +47,7 @@ fig.update_layout(
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+    
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -74,8 +73,7 @@ fig.update_layout(
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+   
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -101,8 +99,7 @@ fig.update_layout(
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+   
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -129,8 +126,7 @@ fig.update_layout(
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+   
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -158,8 +154,7 @@ fig.update_layout(
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+   
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
