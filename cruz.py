@@ -12,14 +12,17 @@ ffmean = df['FF Mean per 100g']
 srmean = pd.to_numeric(srmean,errors='coerce')
 ffmean = pd.to_numeric(ffmean,errors='coerce')
 
-df['Mean Difference'] = srmean.fillna(0) - ffmean.fillna(0) 
+df['Mean Difference'] = ((srmean.fillna(0) - ffmean.fillna(0))/srmean) * 100
+
 df.sort_values('Mean Difference',ascending=False).reset_index().to_csv('allmeandiffsorted.csv')
 
 mean_sorted = pd.read_csv('allmeandiffsorted.csv')
+
 calories = mean_sorted[mean_sorted['FF_Component'] == 'Energy']
 calcium = mean_sorted[mean_sorted['FF_Component'] == 'Calcium, Ca']
 water = mean_sorted[mean_sorted['FF_Component'] == 'Water']
 protein = mean_sorted[mean_sorted['FF_Component'] == 'Protein']
+fat = mean_sorted[mean_sorted['FF_Component'] == 'Total lipid (fat)']
 
 foodgroups_calories = calories['Mean Difference'].groupby(calories['food_category_id'])
 calorie_means = foodgroups_calories.mean().to_frame(name='Mean').reset_index()
@@ -33,21 +36,14 @@ water_means = foodgroups_water.mean().to_frame(name='Mean').reset_index()
 foodgroups_protein = protein['Mean Difference'].groupby(protein['food_category_id'])
 protein_means = foodgroups_protein.mean().to_frame(name='Mean').reset_index()
 
+foodgroups_fat = fat['Mean Difference'].groupby(fat['food_category_id'])
+fat_means = foodgroups_fat.mean().to_frame(name='Mean').reset_index()
+
 mergedcalories = categories.merge(calorie_means, how='inner')
 mergedcalcium = categories.merge(calcium_means, how='inner')
 mergedwater = categories.merge(water_means,how='inner')
 mergedprotein = categories.merge(protein_means,how='inner')
-
-
-# fig = px.bar(calories, x="food_category_id", y="avg calorie difference",
-#              title="Mean Difference of Calories",
-#              labels={"Mean Difference": "Mean Difference (g/100g)"},
-#              barmode="group",
-#              hover_name="food_category_id",
-#              template="plotly",
-#              width=1000, height=600)
-
-# fig.show()
+mergedfat = categories.merge(fat_means,how='inner')
 
 fig = px.bar(mergedcalcium, x="description", y="Mean",
              title="Mean Difference of Calcium Components by Food Group",
@@ -108,6 +104,25 @@ fig.show()
 
 fig = px.bar(mergedprotein, x="description", y="Mean",
              title="Mean Difference of Protein by Food Group",
+             labels={"Mean Difference": "Mean Difference (g/100g)"},
+             color="description", 
+             hover_name="description",
+             template="plotly",
+             width=1000, height=600)
+
+fig.update_layout(
+    xaxis=dict(title="Food Description"),
+    yaxis=dict(title="Mean Difference (g/100g)"),
+    legend_title="Food Description",
+    font=dict(family="Arial", size=12, color="black"),
+    title_font=dict(size=20),
+    bargap=0.01
+)
+
+fig.show()
+
+fig = px.bar(mergedfat, x="description", y="Mean",
+             title="Mean Difference of Fat by Food Group",
              labels={"Mean Difference": "Mean Difference (g/100g)"},
              color="description", 
              hover_name="description",
