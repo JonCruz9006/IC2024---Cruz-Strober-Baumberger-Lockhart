@@ -5,7 +5,7 @@ df = pd.read_csv("dairyonly.csv")
 
 df = df[["FF Food description","SR Food description", "FF_Component" , "SR_Component", "SR Mean per 100g", "FF Mean per 100g"]]
 
-df['Mean Difference'] = abs(df['SR Mean per 100g'] - df['FF Mean per 100g'])
+df['Mean Difference'] = ((df['FF Mean per 100g'] - df['SR Mean per 100g']) / df['SR Mean per 100g']) * 100
 
 
 #region Calcium
@@ -23,18 +23,23 @@ fig = px.bar(calcium, x="FF Food description", y="Mean Difference",
 
 # Update layout for better aesthetics
 fig.update_layout(
-    xaxis=dict(title="Food Description"),
+    xaxis=dict(title="Food Description", showline=True),
     yaxis=dict(title="Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
     plot_bgcolor="rgba(0,0,0,0)",
     paper_bgcolor="rgba(0,0,0,0)",
+    xaxis_line_color="black",  # Set x-axis line color
+    yaxis_line_color="black",  # Set y-axis line color
+    xaxis_line_width=1,  # Set x-axis line width
+    yaxis_line_width=1,  # Set y-axis line width
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
 # endregion
 
+""""
 #region Vitamin A
 
 VitA = df[df['FF_Component'] == 'Vitamin A, RAE'] 
@@ -117,7 +122,7 @@ fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
 
 # endregion
-"""
+
 #region Protein
 
 protein = df[df['FF_Component'] == 'Protein']
