@@ -4,7 +4,7 @@ import re
 
 import re
 
-with open('fruitsonly.csv', "w") as output_file:
+"""with open('fruitsonly.csv', "w") as output_file:
     with open("FF_SR_data.csv", 'r') as fh:
         for line in fh:
             match = re.findall(r'^[0-9]*,[0-9]*,9,', line)
@@ -15,14 +15,15 @@ with open('fruitsonly.csv', "r") as input_file:
     with open('new_fruitsonly.csv', "w") as output_file:
         for line_num, line in enumerate(input_file, start=1):
             if line_num not in range(2, 31) and line_num not in range(230, 351):
-                output_file.write(line)
+                output_file.write(line)"""
 
 
-df = pd.read_csv("new_fruitsonly.csv")
+df = pd.read_csv("fruitsonly.csv")
 
 df = df[["FF Food description","SR Food description", "FF_Component" , "SR_Component", "SR Mean per 100g", "FF Mean per 100g"]]
 
-df['Mean Difference'] = (df['SR Mean per 100g'] - df['FF Mean per 100g'])
+df['Mean Difference'] = ((df['FF Mean per 100g'] - df['SR Mean per 100g']) / df['SR Mean per 100g']) * 100
+
 
 
 #region Sugars
@@ -31,7 +32,7 @@ Sugars = df[df['FF_Component'] == 'Sugars, Total']
 
 fig = px.bar(Sugars, x="FF Food description", y="Mean Difference",
              title="Mean Difference of Sugar Components",
-             labels={"Mean Difference": "Mean Difference (g/100g)"},
+             labels={"Mean Difference": "Percent Change of Mean Difference (g/100g)"},
              color="FF Food description", 
              barmode="group",
              hover_name="FF Food description",
@@ -41,12 +42,10 @@ fig = px.bar(Sugars, x="FF Food description", y="Mean Difference",
 # Update layout for better aesthetics
 fig.update_layout(
     xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
+    yaxis=dict(title="Percent Change of Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
-    title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+    title_font=dict(size=20)
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -68,12 +67,10 @@ fig = px.bar(VitC, x="FF Food description", y="Mean Difference",
 # Update layout for better aesthetics
 fig.update_layout(
     xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
+    yaxis=dict(title="Percent Change of Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -95,12 +92,10 @@ fig = px.bar(VitB, x="FF Food description", y="Mean Difference",
 
 fig.update_layout(
     xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
+    yaxis=dict(title="Percent Change of Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
-    title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+    title_font=dict(size=20)
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
@@ -123,12 +118,10 @@ fig = px.bar(phos, x="FF Food description", y="Mean Difference",
 # Update layout for better aesthetics
 fig.update_layout(
     xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
+    yaxis=dict(title="Percent Change of Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
-    title_font=dict(size=20),
-    plot_bgcolor="rgba(0,0,0,0)",
-    paper_bgcolor="rgba(0,0,0,0)",
+    title_font=dict(size=20)
 )
 fig.update_traces(marker=dict(line=dict(width=0.2)))
 fig.show()
