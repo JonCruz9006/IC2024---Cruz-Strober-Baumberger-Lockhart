@@ -1,1 +1,1 @@
-yur
+In our code, we attempted to find the overall change in components by comparing the Legacy SR information with the Foundation Food information. Jonathan looked a food groups as a whole, Tommy analyzed poultry, Davorah looked at milk, and Lydia analyzed fruit.
