@@ -23,7 +23,7 @@ fig = px.bar(calcium, x="FF Food description", y="Mean Difference",
 # Update layout for better aesthetics
 fig.update_layout(
     xaxis=dict(title="Food Description", showline=True),
-    yaxis=dict(title="Mean Difference (g/100g)"),
+    yaxis=dict(title="Percent change of Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20) # Set y-axis line width
@@ -48,7 +48,7 @@ fig = px.bar(VitA, x="FF Food description", y="Mean Difference",
 # Update layout for better aesthetics
 fig.update_layout(
     xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
+    yaxis=dict(title="Percent change of Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20)
@@ -72,7 +72,7 @@ fig = px.bar(VitB, x="FF Food description", y="Mean Difference",
 
 fig.update_layout(
     xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
+    yaxis=dict(title="Percent change of Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20)
@@ -98,7 +98,7 @@ fig = px.bar(phos, x="FF Food description", y="Mean Difference",
 fig.update_layout(
     xaxis=dict(title="Food Description"),
     yaxis=dict(title="Mean Difference (g/100g)"),
-    legend_title="Food Description",
+    legend_title="Percent change of Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20)
 )
@@ -123,7 +123,7 @@ fig = px.bar(protein, x="FF Food description", y="Mean Difference",
 # Update layout for better aesthetics
 fig.update_layout(
     xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
+    yaxis=dict(title="Percent change of Mean Difference (g/100g)"),
     legend_title="Food Description",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20)
