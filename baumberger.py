@@ -33,8 +33,7 @@ Sugars = df[df['FF_Component'] == 'Sugars, Total']
 fig = px.bar(Sugars, x="FF Food description", y="Mean Difference",
              title="Mean Difference of Sugar Components",
              labels={"Mean Difference": "Percent Change of Mean Difference (g/100g)"},
-             color="FF Food description", 
-             barmode="group",
+             color="FF Food description",
              hover_name="FF Food description",
              template="plotly",
              width=1000, height=600)
@@ -58,8 +57,7 @@ VitC = df[df['FF_Component'] == 'Vitamin C, total ascorbic acid']
 fig = px.bar(VitC, x="FF Food description", y="Mean Difference",
              title="Mean Difference of Vitamin C Components",
              labels={"Mean Difference": "Mean Difference (g/100g)"},
-             color="FF Food description", 
-             barmode="group",
+             color="FF Food description",
              hover_name="FF Food description",
              template="plotly",
              width=1000, height=600)
@@ -84,8 +82,7 @@ VitB = df[df['FF_Component'] == 'Vitamin B-6']
 fig = px.bar(VitB, x="FF Food description", y="Mean Difference",
              title="Mean Difference of Vitamin B Components",
              labels={"Mean Difference": "Mean Difference (g/100g)"},
-             color="FF Food description", 
-             barmode="group",
+             color="FF Food description",
              hover_name="FF Food description",
              template="plotly",
              width=1000, height=600)
@@ -109,8 +106,7 @@ phos = df[df['FF_Component'] == "Phosphorus, P"]
 fig = px.bar(phos, x="FF Food description", y="Mean Difference",
              title="Mean Difference of Phosphorus Components",
              labels={"Mean Difference": "Mean Difference (g/100g)"},
-             color="FF Food description", 
-             barmode="group",
+             color="FF Food description",
              hover_name="FF Food description",
              template="plotly",
              width=1000, height=600)
