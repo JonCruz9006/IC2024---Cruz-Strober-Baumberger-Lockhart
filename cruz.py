@@ -46,17 +46,17 @@ mergedprotein = categories.merge(protein_means,how='inner')
 mergedfat = categories.merge(fat_means,how='inner')
 
 fig = px.bar(mergedcalcium, x="description", y="Mean",
-             title="Mean Difference of Calcium Components by Food Group",
-             labels={"Mean Difference": "Mean Difference (g/100g)"},
+             title="Average Percent Difference of Calcium Components by Food Group",
+             labels={"% Difference": "Average % Difference"},
              color="description", 
              hover_name="description",
              template="plotly",
              width=1000, height=600)
 
 fig.update_layout(
-    xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
-    legend_title="Food Description",
+    xaxis=dict(title="Food Group"),
+    yaxis=dict(title="% Difference"),
+    legend_title="Food Group",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
     bargap=0.01
@@ -65,17 +65,17 @@ fig.update_layout(
 fig.show()
 
 fig = px.bar(mergedcalories, x="description", y="Mean",
-             title="Mean Difference of Calories by Food Group",
-             labels={"Mean Difference": "Mean Difference (g/100g)"},
+             title="Average Percent Difference of Calories by Food Group",
+             labels={"% Difference": "Average % Difference"},
              color="description", 
              hover_name="description",
              template="plotly",
              width=1000, height=600)
 
 fig.update_layout(
-    xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
-    legend_title="Food Description",
+    xaxis=dict(title="Food Group"),
+    yaxis=dict(title="% Difference"),
+    legend_title="Food Group",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
     bargap=0.01
@@ -84,17 +84,17 @@ fig.update_layout(
 fig.show()
 
 fig = px.bar(mergedwater, x="description", y="Mean",
-             title="Mean Difference of Water Content by Food Group",
-             labels={"Mean Difference": "Mean Difference (g/100g)"},
+             title="Average Percent Difference of Water by Food Group",
+             labels={"% Difference": "Average % Difference"},
              color="description", 
              hover_name="description",
              template="plotly",
              width=1000, height=600)
 
 fig.update_layout(
-    xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
-    legend_title="Food Description",
+    xaxis=dict(title="Food Group"),
+    yaxis=dict(title="% Difference"),
+    legend_title="Food Group",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
     bargap=0.01
@@ -103,17 +103,17 @@ fig.update_layout(
 fig.show()
 
 fig = px.bar(mergedprotein, x="description", y="Mean",
-             title="Mean Difference of Protein by Food Group",
-             labels={"Mean Difference": "Mean Difference (g/100g)"},
+             title="Average Percent Difference of Protein by Food Group",
+             labels={"% Difference": "Average % Difference"},
              color="description", 
              hover_name="description",
              template="plotly",
              width=1000, height=600)
 
 fig.update_layout(
-    xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
-    legend_title="Food Description",
+    xaxis=dict(title="Food Group"),
+    yaxis=dict(title="% Difference"),
+    legend_title="Food Group",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
     bargap=0.01
@@ -122,17 +122,17 @@ fig.update_layout(
 fig.show()
 
 fig = px.bar(mergedfat, x="description", y="Mean",
-             title="Mean Difference of Fat by Food Group",
-             labels={"Mean Difference": "Mean Difference (g/100g)"},
+             title="Average Percent Difference of Fat by Food Group",
+             labels={"% Difference": "Average % Difference"},
              color="description", 
              hover_name="description",
              template="plotly",
              width=1000, height=600)
 
 fig.update_layout(
-    xaxis=dict(title="Food Description"),
-    yaxis=dict(title="Mean Difference (g/100g)"),
-    legend_title="Food Description",
+    xaxis=dict(title="Food Group"),
+    yaxis=dict(title="% Difference"),
+    legend_title="Food Group",
     font=dict(family="Arial", size=12, color="black"),
     title_font=dict(size=20),
     bargap=0.01
